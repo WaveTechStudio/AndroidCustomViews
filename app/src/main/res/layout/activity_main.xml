@@ -1,23 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".FirstActivity">
 
-    <wavetechstudio.androidCustomViews.MyCustomTextView
+    <wavetechstudio.androidCustomViews.CustomTextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="4dp"
         android:text="@string/this_is_custom_textview"
         android:textSize="20sp" />
 
-    <wavetechstudio.androidCustomViews.MyCustomView
+    <wavetechstudio.androidCustomViews.CustomView
         android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
         android:text="@string/my_custom_view" />
+
+    <wavetechstudio.androidCustomViews.CustomViewParameters
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/my_custom_view"
+        app:fillcolor="@android:color/holo_blue_bright" />
+
+    <wavetechstudio.androidCustomViews.CustomTextView
+        android:id="@+id/launchSecondActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="@string/goto_second_screen_for_runtime_initialization"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <wavetechstudio.androidCustomViews.CustomViewMeasurement
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </LinearLayout>

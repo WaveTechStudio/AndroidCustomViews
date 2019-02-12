@@ -6,11 +6,11 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
-public class MyCustomView extends View {
+public class CustomView extends View {
 
     private Paint paint;
 
-    public MyCustomView(Context context, AttributeSet attributeSet) {
+    public CustomView(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
 
         paint = new Paint();

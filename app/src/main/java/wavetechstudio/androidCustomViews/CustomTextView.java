@@ -6,11 +6,11 @@ import android.graphics.Paint;
 import android.support.v7.widget.AppCompatTextView;
 import android.util.AttributeSet;
 
-public class MyCustomTextView extends AppCompatTextView {
+public class CustomTextView extends AppCompatTextView {
 
     private Paint paint;
 
-    public MyCustomTextView(Context context, AttributeSet attributeSet) {
+    public CustomTextView(Context context, AttributeSet attributeSet) {
         super(context, attributeSet);
 
         paint = new Paint();
