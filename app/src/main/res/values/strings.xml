@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AndroidCustomViews</string>
+    <string name="this_is_custom_textview">This is custom TextView</string>
+    <string name="my_custom_view">My Custom View</string>
 </resources>
