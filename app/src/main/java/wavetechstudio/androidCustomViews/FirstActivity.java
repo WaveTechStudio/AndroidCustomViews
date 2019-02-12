@@ -19,5 +19,10 @@ public class FirstActivity extends AppCompatActivity {
                 startActivity(new Intent(FirstActivity.this, SecondActivity.class));
             }
         });
+
+    }
+
+    public void launchThirdScreen(View v) {
+        startActivity(new Intent(FirstActivity.this, ThirdActivity.class));
     }
 }

@@ -2,5 +2,6 @@
     <string name="app_name">AndroidCustomViews</string>
     <string name="this_is_custom_textview">This is custom TextView</string>
     <string name="my_custom_view">My Custom View</string>
-    <string name="goto_second_screen_for_runtime_initialization">Goto Second Screen For Runtime Initialization</string>
+    <string name="goto_second_screen_for_runtime_initialization">Goto Second Screen, Runtime Initialization</string>
+    <string name="goto_third_screen_for_initialization_with_builder">Goto Third Screen, Initialization with Builder</string>
 </resources>
