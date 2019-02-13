@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EventHandlingOnCustomViews</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="basic_events">Basic Events</string>
+    <string name="advance_events">Advance Events</string>
+</resources>
