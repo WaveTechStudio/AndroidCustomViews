@@ -25,4 +25,8 @@ public class FirstActivity extends AppCompatActivity {
     public void launchThirdScreen(View v) {
         startActivity(new Intent(FirstActivity.this, ThirdActivity.class));
     }
+
+    public void launchFourthScreen(View v) {
+        startActivity(new Intent(FirstActivity.this, FourthActivity.class));
+    }
 }

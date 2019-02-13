@@ -4,4 +4,5 @@
     <string name="my_custom_view">My Custom View</string>
     <string name="goto_second_screen_for_runtime_initialization">Goto Second Screen, Runtime Initialization</string>
     <string name="goto_third_screen_for_initialization_with_builder">Goto Third Screen, Initialization with Builder</string>
+    <string name="goto_fourth_screen_custom_viewgroup">Goto Fourth Screen, Custom ViewGroup</string>
 </resources>
