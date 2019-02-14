@@ -1,4 +1,4 @@
-# AndroidCustomViews
+# Android Custom Views
 
 ### CustomTextView, CustomView, CustomView With Measurement, CustomView With Parameters, Custom Circular View, View Rendring, Touch Events, Gestures
 <img src="./screens/01.png" width=“100”/>
