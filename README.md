@@ -14,4 +14,4 @@
 It is totally free to use. :)
 
 ## Credits
-[PacktPublishing](https://github.com/PacktPublishing/Building-Android-UIs-with-Custom-Views) 
+[PacktPublishing](https://www.packtpub.com/application-development/building-android-uis-custom-views) 
