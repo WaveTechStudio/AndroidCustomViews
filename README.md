@@ -8,7 +8,7 @@
 
 
 ## Author
-[Waheed Nazir (WaveTechStudio)](https://www.linkedin.com/in/waheed-nazir-36521579/ "Waheed Nazir (GreenProLogix)")
+[Waheed Nazir](https://www.linkedin.com/in/waheed-nazir-36521579/ "Waheed Nazir (GreenProLogix)")
 
 ## License
 It is totally free to use. :)
